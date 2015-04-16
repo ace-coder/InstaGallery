@@ -1,0 +1,229 @@
+.login-container{
+    max-width: 500px;
+    border: 1px solid #a4baca;
+    border-radius: 5px;
+    margin: 50px auto 0;    
+}
+.login-container .login-cont-head{
+    background-color: #517fa4;
+    background-image: url("//instagramstatic-a.akamaihd.net/bluebar/c822868/images/shared/noise-1.png"), -moz-linear-gradient(center top , #517fa4, #306088);
+    background-position: 50% 50%;
+    border-color: #1c5380;
+    border-radius: 4px 4px 0 0;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    box-shadow: 0 -1px 0 #06365f inset, 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    color: #fff;
+    font-size: 18px;
+    height: 44px;
+    margin: -1px -1px 1px;
+    position: relative;
+    text-align: center;
+}
+.login-container .login-cont-head h3{
+    background: url("//instagramstatic-a.akamaihd.net/bluebar/c822868/images/branding/new-logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 33px;
+    left: 50%;
+    margin: -14px 0 0 -48px !important;
+    position: absolute;
+    text-indent: -9999em;
+    top: 50%;
+    width: 96px;
+}
+.login-cont-body{
+    padding: 15px;
+}
+
+*{margin:0;padding:0}
+img{
+    cursor:pointer;
+}
+.main_container{
+    border:2px solid gray;
+    margin:1% auto;
+    padding-bottom:4%;
+    margin-bottom:4%;
+}
+.header{
+    padding:1em;
+    border-bottom:1px solid gray;
+
+}
+.header p{
+    padding:.5% 0%;
+    font-weight:bold;
+    font-size:1.2em;
+    font-family:'open sans';
+}
+.main_menu{
+    padding:2em .5em;
+}
+.index_page_search{
+    border-radius:20px;
+    outline:none;
+    border:1px solid gray;
+    padding:0.2em .5em;
+    font-family:Arial, FontAwesome;
+}
+
+.refresh_feed a{
+    border:1px solid gray;
+    padding:.4em 1em;
+    text-decoration:none;
+    color:#000;
+    font-family:monospace;
+    font-weight:700;
+
+}
+.menu_list{
+    float:right;
+}
+.menu_list li{
+    display:inline;
+    list-style:none;
+    padding:0 1em;
+}
+.menu_list li a{
+    text-decoration:none;
+    color:#000;
+}
+.menu_list li a:hover{
+
+    color:green;
+}
+.add_url ul{
+    float:right;
+}
+.add_url ul li{
+    display:inline;
+    list-style:none;
+    padding:0 1em;
+}
+.add_url ul li a{
+    text-decoration:none;
+}
+.add_url ul li i{
+
+    border-bottom:1px solid gray;
+    padding-bottom:.5em;
+}
+.feed_item, #my_gallery{
+    margin:2.5em 0;
+
+}
+.feed_item li, #my_gallery li{
+
+    display:inline-block;
+    list-style:none;
+    padding:1em 1em;
+    width:20%;
+    margin: 5px;
+}
+.feed_item .close_icon{
+    padding:4px 4px;
+    float:right;
+    cursor:pointer;
+    color: #555;
+
+}
+.feed_item li img, #my_gallery li img{
+    height:100%;
+    width:100%;
+}
+.like_comment{
+    background-color:#E5E5E5;
+    padding:.5em;
+
+}
+.like_comment i{
+    padding:.0em .5em;
+    color:#565656;
+
+}
+.active{
+    color:green!important;
+}
+.modal-dialog {
+    position:absolute;
+    top:50% !important;
+    transform: translate(0, -50%) !important;
+    -ms-transform: translate(0, -50%) !important;
+    -webkit-transform: translate(0, -50%) !important;
+    margin:auto 25%;
+    width:50%;
+    height:40%;
+
+}
+.modal-content {
+    min-height:100%;
+    position:absolute;
+    /*  top:0;*/
+    bottom:0;
+    left:0;
+    right:0; 
+    padding-top:5%!IMPORTANT;
+    padding-bottom:5%!IMPORTANT;
+}
+.modal-content img{
+    /*	height:150px;*/
+    width:100%;
+
+}
+.modal-body {
+    position:absolute;
+    top:45px; // height of header
+    bottom:45px;  // height of footer
+    left:0;
+    right:0;
+    overflow-y:auto;
+}
+.modal-footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.add_to_gallery>p>a{
+    text-decoration:none;
+    border:1px solid gray;
+    padding:.3em 2em;
+
+}
+
+div.alert:empty{
+    display: none;
+}
+
+
+.hashtag-search{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+}
+.feed_item a {
+    display: block;
+}
+div.msg_success{
+    padding-bottom: 2px;
+}
+div.alert:empty{
+    display: none;
+}
+div.msg_success p{
+    margin-top: 15px;
+}
+li.img_added{
+    background: gray;
+}
+
+#my_gallery li a{
+    display: block;
+}
+#my_gallery li p{
+    margin: 5px 0 0;
+}
+#loading img {
+    max-height: 130px;
+}
